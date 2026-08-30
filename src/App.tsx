@@ -1,4 +1,5 @@
 import './App.css'
+import './overrides.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import ProductsPage from './pages/ProductsPage'
@@ -8,10 +9,12 @@ import ProjectsPage from './pages/ProjectsPage'
 import DownloadsPage from './pages/DownloadsPage'
 import LocationPage from './pages/LocationPage'
 import EnquiryPanel from './components/EnquiryPanel'
+import RouteEffects from './components/RouteEffects'
 
 function App() {
   return (
     <BrowserRouter>
+      <RouteEffects />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
