@@ -1,0 +1,3 @@
+Read CLAUDE.md and progress.md.
+Inspect the existing implementation and continue the remaining work.
+Do not redo completed sections.
