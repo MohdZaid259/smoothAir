@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Mail, Phone } from 'lucide-react'
 
 export default function Header() {
   return (
@@ -7,8 +8,8 @@ export default function Header() {
         <div className="container top-strip-inner">
           <span className="top-note">Civil Defence Authority Approved Duct Systems Across the UAE</span>
           <div className="top-links">
-            <a href="tel:+97145868900">● +971 4 586 8900</a>
-            <a href="mailto:info@smoothair.com">✉ info@smoothair.com</a>
+            <a href="tel:+97145868900"><Phone size={14} aria-hidden="true" /> +971 4 586 8900</a>
+            <a href="mailto:info@smoothair.com"><Mail size={14} aria-hidden="true" /> info@smoothair.com</a>
           </div>
         </div>
       </div>
@@ -29,4 +30,3 @@ export default function Header() {
     </>
   )
 }
-
