@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div>
           <h3>Contact</h3>
-          <p>+971 4 586 8900<br />info@smoothair.com<br />Dubai, United Arab Emirates</p>
+          <p>+971 56 288 1359<br />info@smoothairuae.com<br />P.O. Box 23113, Al Ain</p>
         </div>
       </div>
       <div className="footer-bottom">
